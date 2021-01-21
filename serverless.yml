@@ -1,0 +1,15 @@
+org: orgDemo
+app: wechatBot
+stage: dev
+component: express
+name: wechatBot
+
+inputs:
+  src:
+    src: ./
+    exclude:
+      - .env
+  apigatewayConf:
+    protocols:
+      - http
+      - https
