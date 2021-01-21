@@ -39,7 +39,6 @@ app.use('/w', wechat(config, async function (req, res, next) {
         //处理消息
         let message_content = message.Content;
 
-    } else {
         //显示帮助
         res.reply({
             type: 'text',
