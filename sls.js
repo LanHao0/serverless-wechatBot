@@ -42,7 +42,7 @@ app.use('/w', wechat(config, async function (req, res, next) {
         //显示帮助
         res.reply({
             type: 'text',
-            content: 'text'
+            content: 'hello user!'
         });
 
     }
